@@ -4,10 +4,3 @@ class Cat
   attr_writer :name
 end
 
-  def meow=(meow)
-    @meow = meow
-  end
-  def meow
-    @meow
-  end
-end
