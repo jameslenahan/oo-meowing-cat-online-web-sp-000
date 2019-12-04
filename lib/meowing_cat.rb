@@ -1,3 +1,3 @@
 ## code your solution here. 
 class Cat 
-  def name=()
+  def name=(cats_name)
