@@ -1,11 +1,7 @@
 ## code your solution here. 
 class Cat 
-  def name=(cats_name)
-    @name = cats_name
-  end
-  
-  def name
-    @name
+  attr_reader :name
+  attr_writer :name
   end
   def meow=(meow)
     @meow = meow
